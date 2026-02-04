@@ -9,6 +9,7 @@ const NAV_LINKS = [
   { href: "#diferenciais", label: "Diferenciais" },
   { href: "#servicos", label: "Serviços" },
   { href: "#sobre", label: "Sobre mim" },
+  { href: "#agendar", label: "Agendar" },
 ];
 
 export function Header() {
