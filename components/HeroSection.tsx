@@ -13,8 +13,7 @@ const BENTO_IMAGES = [
   "/assets/2f7826d6-b5d3-48f4-97a4-8a254b4052a6.jpeg",
 ];
 
-const WHATSAPP_LINK =
-  "https://wa.me/5561999999999?text=Olá! Gostaria de agendar uma consulta domiciliar com a Dra. Thainá Caetano.";
+import { WHATSAPP_LINK } from "@/lib/constants";
 
 export function HeroSection() {
   return (

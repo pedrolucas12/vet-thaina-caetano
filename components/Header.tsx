@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Button as HeroUIButton } from "@heroui/react";
+import { WHATSAPP_LINK } from "@/lib/constants";
 
 const NAV_LINKS = [
   { href: "#diferenciais", label: "Diferenciais" },
@@ -38,7 +39,7 @@ export function Header() {
           ))}
         </nav>
         <a
-          href="https://wa.me/5561999999999"
+          href={WHATSAPP_LINK}
           target="_blank"
           rel="noopener noreferrer"
           className="hidden md:block"
@@ -109,7 +110,7 @@ export function Header() {
                 </motion.a>
               ))}
               <a
-                href="https://wa.me/5561999999999"
+                href={WHATSAPP_LINK}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-4 block w-full"

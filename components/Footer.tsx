@@ -1,7 +1,7 @@
 "use client";
 
-const WHATSAPP_LINK =
-  "https://wa.me/5561999999999?text=Olá! Gostaria de agendar uma consulta.";
+import { WHATSAPP_LINK } from "@/lib/constants";
+
 const INSTAGRAM_LINK = "https://instagram.com";
 
 export function Footer() {

@@ -3,8 +3,7 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 
-const WHATSAPP_LINK =
-  "https://wa.me/5561999999999?text=Olá! Gostaria de agendar uma consulta domiciliar com a Dra. Thainá Caetano.";
+import { WHATSAPP_LINK } from "@/lib/constants";
 
 export function FloatingCTA() {
   return (
