@@ -13,6 +13,10 @@ export const metadata: Metadata = {
   title: "Dra. Thainá Caetano | Veterinária Domiciliar",
   description:
     "Atendimento domiciliar humanizado para seu pet. Consulta clínica, protocolo vacinal e mais no conforto da sua casa.",
+  icons: {
+    icon: "/assets/e762c95a-73a2-4489-b816-5993c932dc21.jpeg",
+    apple: "/assets/e762c95a-73a2-4489-b816-5993c932dc21.jpeg",
+  },
 };
 
 export default function RootLayout({
